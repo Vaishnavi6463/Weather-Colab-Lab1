@@ -4,7 +4,7 @@ def calculate_lcm(a, b):
     if a == 0 or b == 0:
         return 0
     gcd = math.gcd(a, b)
-    lcm = abs(a * b) // gcd
+    lcm = abs(a * b) 
     return lcm
 
 
